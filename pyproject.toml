@@ -1,0 +1,33 @@
+[project]
+name = "QNAPRockstor"
+version = "0.1.0"
+description = "Control QNAP LCDs from Rockstor"
+authors = [
+    {name = "Wil",email = "98198668+Wilaz@users.noreply.github.com"}
+]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "QNAPControl @ git+https://github.com/Wilaz/QNAPControl.git"
+]
+keywords = ["QNAP", "NAS", "LCD"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: System :: Hardware :: Hardware Drivers",
+    "Operating System :: OS Independent",
+    "Typing :: Typed",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+
+[project.urls]
+Repository = "https://github.com/Wilaz/QNAPRockstor"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
